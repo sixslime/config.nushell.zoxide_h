@@ -1,4 +1,6 @@
 
+use ./env/.zoxide_generated.nu *;
+
 export def --env --wrapped h [...args] {
     if ($args | length) > 0 {
       __zoxide_z ...$args;
