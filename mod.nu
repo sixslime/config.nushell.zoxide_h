@@ -1,5 +1,5 @@
 
-export def main [] {
+export def --env main [] {
     source ./init.nu;
     source ~/.zoxide.nu;
 }
