@@ -1,6 +1,6 @@
 
 export def main [] {
     source ./init.nu;
-    source ~/zoxide.nu;
+    source ~/.zoxide.nu;
 }
 export use ./definitions.nu *;
